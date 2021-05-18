@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import Heading from './Heading';
+import PrductList from './ProductList';
 
 const Home = () => {
   return (
-    <div>
-      <h2> Home </h2>
-    </div>
+    <Fragment>
+      <Heading />
+      <PrductList />
+    </Fragment>
   );
 };
 
